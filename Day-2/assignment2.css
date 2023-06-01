@@ -1,0 +1,68 @@
+.navi {
+    background-color: lavender;
+    overflow: hidden ;
+    border: 2px solid purple;
+  }
+  .navi a {
+    float: center;
+    color: brown;
+    padding:30px 60px;
+    text-decoration:none;
+    font-size: 19px;
+  }
+  .navi a:hover {
+    background-color: peachpuff;
+    color: black;
+  }
+  #clickable1{
+    background-color:brown;
+    color:white;
+    border-color:gray;
+    margin-left: 50px;
+  }
+  #clickable2{
+    background-color:brown;
+    color:white;
+    border-color:gray;
+    margin-left: 50px;
+    align-self: center;
+  }
+  #clickable3{
+    background-color:teal;
+    color:white;
+    border-color:gray;
+    margin-left: 50px;
+  }
+  #clickable4{
+    background-color:teal;
+    color:white;
+    border-color:gray;
+    margin-left: 50px;
+  }
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    background-color:cyan;
+  }
+  
+  th {
+    background-color:lightblue;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

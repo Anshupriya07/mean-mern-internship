@@ -1,0 +1,108 @@
+body{
+    background-color:black;
+
+}
+#show_movies {
+    padding-left: 3%;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+  }
+  
+  #show_movies img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 2px solid darkblue;
+  }
+  
+  #show_movies h3 {
+    color: brown;
+    text-align: center;
+  }
+  
+  #show_movies p {
+    color: red;
+    text-align: center;
+  }
+  
+  #show_movies button {
+    color: white;
+    background-color: navy;
+    border: 1px solid black;
+    margin: 10px; 
+    border-radius: 10%;
+    padding: 8px; 
+    margin-left: 10%; 
+    margin-bottom:20%;
+  }
+  
+  #show_movies button:hover {
+    background-color: coral;
+  }
+  h1 {
+    color:azure;
+    text-align: center;
+
+  }
+
+  nav {
+    background-color:brown;
+  }
+  nav:hover {
+    background-color: darkblue;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .brand-logo {
+    color:aquamarine;
+    font-weight: bold;
+    text-decoration: none;
+
+  }
+  
+  .brand-logo.left {
+    margin-left: auto;
+  }
+  .brand-logo:hover {
+    color:red;
+  }
+  
+  #nav-mobile {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  #nav-mobile li {
+    margin-right: 10px;
+  }
+  
+  #nav-mobile li a {
+    text-decoration: none;
+    color: white;
+    margin: 32px;
+  }
+  #nav-mobile li a:hover {
+    color:aqua;
+  }
+
+  
+  .hide-on-med-and-down {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .hide-on-med-and-down {
+      display: block;
+    }
+  }
+  
